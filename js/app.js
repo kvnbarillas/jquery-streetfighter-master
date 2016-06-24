@@ -23,16 +23,16 @@ $(document).ready(function() {
 	.mouseup(function() {
 		$('.ryu-throwing').hide();
 		$('.ryu-ready').show();
-	});
-	$(document).keydown(function(e) {
-		if (e.which == 88){
+	})
+	
+	.keydown(function(event) {
+		if (e.keycode = 88){
 			$('.ryu-still').hide();
 			$('.ryu-cool').show();
-			
 		}
 	})
-	.keyup(function(e) {
-		if (e.which == 88){
+	.keyup(function(event) {
+		if (e.keycode = 88){
 			$('.ryu-cool').hide();
 			$('.ryu-still').show();
 			
